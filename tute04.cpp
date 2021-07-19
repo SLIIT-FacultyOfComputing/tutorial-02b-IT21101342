@@ -27,3 +27,19 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
+long Factorial(int no)
+{
+  int k=1,i;
+  if (no==0)
+  {
+    return k;
+  }
+  else
+  {
+    for (i=1;i<=n;i++)
+    {
+      k=k*i;
+    }
+  }
+  return k;
+}
